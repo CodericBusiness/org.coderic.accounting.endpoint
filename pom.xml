@@ -144,7 +144,7 @@
 					<server>TomcatServer</server>
 					<url>http://localhost:8080/manager/text</url>
 					<update>true</update>
-					<path>/${project.build.finalName}</path>
+					<path>/accounting/${project.build.finalName}</path>
 					<ignorePackaging>true</ignorePackaging>
 					<tag>${project.version}</tag>
 					<mode>war</mode>
