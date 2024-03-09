@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.6.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/DECORATION/1.6.0 http://maven.apache.org/xsd/decoration-1.6.0.xsd"
+name="${project.name}">
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>2.0.0-M8</version>
+	</skin>
+	<custom>
+		<fluidoSkin>
+			<!--profile>(pre-release|sandbox|retired)</profile-->
+			<sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+			<gitHub>
+				<projectId>CodericBusiness/org.coderic.bank.gateway</projectId>
+				<ribbonOrientation>right</ribbonOrientation>
+				<ribbonColor>orange</ribbonColor>
+			</gitHub>
+		</fluidoSkin>
+	</custom>
+	<bannerLeft>
+		<name>${project.name}</name>
+		<!--src>/images/logox1.png</src-->
+		<!--href>https://coderic.org/</href-->
+	</bannerLeft>
+	<edit>${project.scm.url}/edit/master/</edit>
+	<poweredBy>
+		<logo name="Coderic" href="https://coderic.org/" img="/images/logo.png" position="center" width="80%" title="Coderic" />
+	</poweredBy>
+	<body>
+		<breadcrumbs>
+			<item name="Endpoint" href="/index.html"/>
+		</breadcrumbs>
+		<links>
+			<item name="Repositorio" href="${project.scm.url}" />
+		</links>
+		<menu name="Related links">
+			<item name="Semantic Versioning" href="https://semver.org/lang/es/" />
+			<item name="Spring Boot" href="https://spring.io/" />
+			<item name="Maven" href="https://maven.apache.org/" />
+			<item name="Java" href="https://www.javainuse.com/" />
+		</menu>
+		<menu ref="reports" />
+	</body>
+</project>

@@ -1,0 +1,10 @@
+Created-By: Apache Maven
+Main-Class: org.coderic.accounting.endpoint.EndpointApplication
+Manifest-Version: 2.0
+Name: coderic-accounting/endpoint
+Specification-Title: Endpoint for Financial Accounting
+Specification-Version: 1.0
+Specification-Vendor: Coderic
+Implementation-Title: coderic.endpoint
+Implementation-Vendor: Coderic
+
