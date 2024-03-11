@@ -84,7 +84,7 @@
 		<dependency>
 			<groupId>com.amazon.ion</groupId>
 			<artifactId>ion-java</artifactId>
-			<version>1.10.5</version>
+			<version>1.11.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
